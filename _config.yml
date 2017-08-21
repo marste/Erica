@@ -18,7 +18,6 @@ avatar: https://farm5.staticflickr.com/4442/35903374953_3116e47667_o.jpg
 # Tipue search settings
 tipue_search:
   include:
-    pages: true
 	
 # Includes an icon in the footer for each username you enter
 footer-links:
