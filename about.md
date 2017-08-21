@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contattami
 
-[email@domain.com](mailto:erica@marzorati.co)
+[erica@marzorati.co](mailto:erica@marzorati.co)
