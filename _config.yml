@@ -19,8 +19,6 @@ avatar: https://farm5.staticflickr.com/4442/35903374953_3116e47667_o.jpg
 tipue_search:
   include:
     pages: true
-  exclude:
-    files: [search.html]
 	
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -91,3 +89,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - search.html
