@@ -12,16 +12,14 @@ tags:
   - foto
 ---
 Ciao Mondo
-#ciao mondo   
-
-##ciao mondo   
-
-###ciao mondo   
 
 <code>ciao mondo</code>   
 
 ```
-codice
+p {
+    border: 1px solid powderblue;
+    margin: 50px;
+}
 ```
 
 *corsivo*   
@@ -34,12 +32,11 @@ codice
 2. second point
 3. third point   
 
+<del>deleted words</del>   
 
-
-<del>deleted words</del>
-> quotare del testo. 
-> quotare del testo. 
-> quotare del testo. 
-> quotare del testo. 
-> quotare del testo. 
-> quotare del testo. 
+> quotare del testo   
+> quotare del testo   
+> quotare del testo   
+> quotare del testo   
+> quotare del testo   
+> quotare del testo   
