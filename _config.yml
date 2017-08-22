@@ -56,7 +56,8 @@ baseurl: ""
 # Tipue search settings
 tipue_search:
   include:
-    pages: true
+    pages: true 
+    posts: true 
 
 permalink: /:title/
 
