@@ -57,6 +57,8 @@ baseurl: ""
 tipue_search:
   include:
     pages: true
+  exclude:
+    files: [search.html]
 
 permalink: /:title/
 
@@ -89,4 +91,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - search.html
