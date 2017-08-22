@@ -12,20 +12,34 @@ tags:
   - foto
 ---
 Ciao Mondo
-#ciao mondo
-##ciao mondo
-###ciao mondo
-<code>ciao mondo</code>
+#ciao mondo   
+
+##ciao mondo   
+
+###ciao mondo   
+
+<code>ciao mondo</code>   
+
 ```
 codice
 ```
-*corsivo*
-**grassetto**
-***corsivo grassetto***
+
+*corsivo*   
+
+**grassetto**   
+
+***corsivo grassetto***   
+
 1. first point
 2. second point
-3. third point
-evidenziato
-==oooh fancy==
+3. third point   
+
+
+
 <del>deleted words</del>
+> quotare del testo. 
+> quotare del testo. 
+> quotare del testo. 
+> quotare del testo. 
+> quotare del testo. 
 > quotare del testo. 
