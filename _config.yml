@@ -28,7 +28,7 @@ description: I miei primi mesi...
 # List of links in the navigation bar
 navbar-links:
   Search: "search"
-  Preferiti:
+  Links:
     - Alice: "http://alice.marzorati.co/"
     - Papà: "http://stefano.marzorati.co/"
   About Me: "aboutme"
