@@ -78,3 +78,7 @@ Delete
 - [ ] Secondo task che deve essere completato.
 Il box subito sotto è una checkbox HTML spuntata.
 - [x] Questo task è stato completato.
+
++ Oggetto
++ Oggetto
++ Un altro oggetto
