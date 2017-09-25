@@ -73,3 +73,12 @@ You can add notification, warning and error boxes like this:
 
 Delete   
 <del>cancellato</del>
+
+- [ ] Primo task da completare.
+- [ ] Secondo task che deve essere completato.
+Il box subito sotto è una checkbox HTML spuntata.
+- [x] Questo task è stato completato.
+
++ Oggetto
++ Oggetto
++ Un altro oggetto
