@@ -21,7 +21,7 @@ tipue_search:
 title: Erica Marzorati
 
 # Short description of your site
-description: I miei primi mesi...
+description: I miei primi 4 mesi...
 
 # --- Navigation bar options --- #
 
@@ -35,7 +35,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "https://farm5.staticflickr.com/4442/35903374953_3116e47667_o.jpg"
+avatar: "https://farm5.staticflickr.com/4508/23704814748_99c2fb9177_q.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
