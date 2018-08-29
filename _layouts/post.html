@@ -29,6 +29,51 @@ layout: base
         {% include social-share.html %}
       {% endif %}
 
+	
+
+
+
+
+	
+	  function setreviewval(val){
+    var i=1;
+	$('#review img').each(function(){
+		if(i<=val) $(this).attr('src','http://www.stresan.de/img/star.svg');
+		else $(this).attr('src','http://www.stresan.de/img/star-empty.svg');
+		i++;
+	});	
+}
+function setreviewvaldef(val){
+	setreviewval(val);
+	//remove mouseover and mouseout
+	$('#review img').attr('onmouseover','');
+	$('#review img').attr('onmouseout','');
+}
+
+img {width: 30px;}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div id="review"><div>Bewerte diesen Artikel: </div>
+<img src="http://www.stresan.de/img/star.svg" onmouseover="setreviewval(1);" onmouseout="setreviewval(4);" onclick="setreviewvaldef(1);$('#rating').val(1);$('#ratingform').show().attr('action',$('#ratingform').attr('action')+'#rating=1');" />
+<img src="http://www.stresan.de/img/star.svg" onmouseover="setreviewval(2);" onmouseout="setreviewval(4);" onclick="setreviewvaldef(2);$('#rating').val(2);$('#ratingform').show().attr('action',$('#ratingform').attr('action')+'#rating=2');" />
+<img src="http://www.stresan.de/img/star.svg" onmouseover="setreviewval(3);" onmouseout="setreviewval(4);" onclick="setreviewvaldef(3);$('#rating').val(3);$('#ratingform').show().attr('action',$('#ratingform').attr('action')+'#rating=3');" />
+<img src="http://www.stresan.de/img/star.svg" onmouseover="setreviewval(4);" onmouseout="setreviewval(4);" onclick="setreviewvaldef(4);$('#rating').val(4);$('#ratingform').show().attr('action',$('#ratingform').attr('action')+'#rating=4');" />
+<img src="http://www.stresan.de/img/star-empty.svg" onmouseover="setreviewval(5);" onmouseout="setreviewval(4);" onclick="setreviewvaldef(5);$('#rating').val(5);$('#ratingform').show().attr('action',$('#ratingform').attr('action')+'#rating=5');" />
+<form method="POST" id="ratingform" action="{{ page.url }}"><input type="hidden" name="_to" value="stefano.marzorati@gmail.com" />
+<input type="hidden" name="post" value="{{ page.url }}" /><input id="rating" type="hidden" name="rating" value="" /><br />
+<input type="text" name="comment" placeholder="Please clarify your score..." class="form-control" required="required" />
+</form>
+</div>
+	  
+	   
+
+
+
+
+
+
+
+	   
       <ul class="pager blog-pager">
         {% if page.previous.url %}
         <li class="previous">
